@@ -1,0 +1,29 @@
+\vspace{-0.5cm}
+\section*{Allgemein}
+	\begin{minipage}[t]{10cm}
+		\subsection*{Primitive Datentypen}
+			\rowcolors{1}{gray!15}{white}
+			\begin{tabular}{|>{\bfseries}l l l|}
+				\hline   boolean & Boolescher Wert & true, false
+				\\\hline char & Textzeichen (UTF16) & 'a', 'B', '0', 'é' etc.
+				\\\hline byte & Ganzzahl (8 Bit) & -128 bis 127
+				\\\hline short & Ganzzahl (16 Bit) & -32'768 bis 32'767
+				\\\hline int & Ganzzahl (32 Bit) & -2$^{31}$ bis 2$^{31}$-1
+				\\\hline long & Ganzzahl (64 Bit) & -2$^{63}$ bis 2$^{63}$-1, 1L (L Suffix)
+				\\\hline float & Gleitkommazahl(32 Bit) & 0.1f, 2e4f (2*10$^4$)
+				\\\hline double & Gleitkommazahl(64 Bit) & 0.1, 2e4 
+				\\\hline
+			\end{tabular}
+		\end{minipage}
+		\hspace*{0.6cm}
+		\begin{minipage}[t]{8.4cm}
+			\vspace*{0.7cm}
+			\textbf{Überlauf/Unterlauf} ist in Java definiert. Zählt einfach, je nach dem, unten oder oben weiter. Bei Gleitkommazahlen wird 2*1e308 zu POSITIVE\_INFINITY.
+			\subsection*{Explizite Typkonversation}
+			Nur C-Style Cast: (int)3.5; $\rightarrow$ 3
+			\\\todo{evtl. noch Arrays und Mehrdimensionale Arrays}
+		\end{minipage}
+	
+	\vspace{0.3cm}\todo{evtl. komplexe Datentypen}
+	\vspace{0.3cm}
+	\lstinputlisting{code/test.java}
