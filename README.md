@@ -6,7 +6,7 @@
 
     
 ### Contributors
-Jan Brupbacher (jbrupbac)
+Jan Brupbacher (jbrupbac)\
 Fabian Dünki
 
 ### License
