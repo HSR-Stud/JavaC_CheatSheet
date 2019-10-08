@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.8)  7 OCT 2019 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.8)  8 OCT 2019 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,13 +887,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  )
 (\end occurred when \ifnum on line 15 was incomplete) 
 Here is how much of TeX's memory you used:
- 12824 strings out of 492616
- 202255 string characters out of 6132769
- 716031 words of memory out of 5000000
+ 12825 strings out of 492616
+ 202265 string characters out of 6132769
+ 717031 words of memory out of 5000000
  16536 multiletter control sequences out of 15000+600000
  5645 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,60p,9127b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,60p,9127b,1163s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
@@ -901,10 +901,10 @@ e1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
 ts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on JavaC_CheatSheet.pdf (1 page, 76793 bytes).
+Output written on JavaC_CheatSheet.pdf (1 page, 77347 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 40 named destinations out of 1000 (max. 500000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 41 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
