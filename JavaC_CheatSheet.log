@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.8)  13 OCT 2019 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.8)  18 OCT 2019 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1173,6 +1173,30 @@ Package xcolor Warning: Incompatible color definition on input line 12.
 
 Package xcolor Warning: Incompatible color definition on input line 12.
 
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
 ) (./code/Set_example.java
 
 Package xcolor Warning: Incompatible color definition on input line 1.
@@ -1606,7 +1630,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
 Here is how much of TeX's memory you used:
  12979 strings out of 492616
  204733 string characters out of 6132769
- 710701 words of memory out of 5000000
+ 712701 words of memory out of 5000000
  16642 multiletter control sequences out of 15000+600000
  5645 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1618,7 +1642,7 @@ e1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
 ts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on JavaC_CheatSheet.pdf (2 pages, 106092 bytes).
+Output written on JavaC_CheatSheet.pdf (2 pages, 106338 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams

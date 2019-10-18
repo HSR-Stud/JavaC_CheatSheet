@@ -9,4 +9,4 @@ stringList.remove("two");		// removes the FIRST "two" in List
 stringList.remove(1);			// remove at pos 1
 // remove -> alles dahinter wird nach vorne geschoben
 stringList.contains("three");	// true -> "three" is in List, else -> falselong
-long size = stringList.size();	// get size
+long size = stringList.size();	// get size (number of Elements)
