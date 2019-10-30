@@ -1,0 +1,21 @@
+\section*{Schnittstellen(Interfaces)}
+	Ein Interface beschreibt die öffentlich nutzbare Funktionalität einer Klasse. Während aber Klassen instanziierbar sind, sind Interfaces lediglich als deklarierbare Typen verwendbar. \todo{evtl beispiel???}\\
+	\begin{minipage}[t]{8.3cm}
+		\subsection*{Spezifikation}
+			\lstinputlisting{code/Interface_definition.java}
+			Methoden einer Schnittstelle sind implizit \textbf{\texttt{public}} und \textbf{\texttt{abstract}}, sprich diese modifier können weggelassen werden. Andere Modifier sind ungültig.
+		\subsection*{Kontstanten in Schnittstellen}
+			\lstinputlisting{code/Interface_constant.java}
+			Vermeintliche Variablen sind in Schnittstellen Konstanten, welche bei gutem Stil in Grossbuchstaben geschrieben werden. Diese sind implizit \textbf{\texttt{public}}, \textbf{\texttt{static}} und \textbf{\texttt{final}}.
+	\end{minipage}
+	\hspace*{0.5cm}
+	\begin{minipage}[t]{10cm}
+		\subsection*{Implementation}
+			\lstinputlisting{code/Interface_Implementation.java}
+		\subsection*{Vererbungen und Mehrfachimplementation}
+			\lstinputlisting{code/Interface_inheritance.java}
+	\end{minipage}
+	\subsection*{Kollisionen bei Mehrfach-Implementation}
+	\textbf{gleiche Methode:} Methode wird nur einmal implementiert $\rightarrow$ kein Problem\\
+	\textbf{gleichnamige Konstanten:} Muss explizit auf Konstante zugegriffen werden $\rightarrow$ \lstinline|Vehicle.HIGHWAY_MIN_SPEED|
+	
