@@ -49,7 +49,20 @@ Wenn eine Exception nirgendwo gecached wird und somit \texttt{main()} mit dieser
 			\item optionaler finally Block am Ende des try-Konstrukts.
 			\item Wird in jedem Fall durchlaufen			
 		\end{itemize}
-		\lstinputlisting{code/Exception_finally.java}
-		\lstinputlisting{code/Exception_finallyWithoutCatch.java}
-		\lstinputlisting{code/Exception_finallyAuto.java}
-		\lstinputlisting{code/Exception_finallyAuto2.java}
+		\begin{minipage}[t]{10cm}
+			\lstinputlisting{code/Exception_finally.java}
+		\end{minipage}
+		\hspace*{0.5cm}
+		\begin{minipage}[t]{7.3cm}
+			\lstinputlisting{code/Exception_finallyWithoutCatch.java}
+			$\rightarrow$ oftmals auch ohne \texttt{catch}-Block.
+		\end{minipage}
+
+		\begin{minipage}[t]{9cm}
+			\lstinputlisting{code/Exception_finallyAuto.java}
+			$\rightarrow$ Dieser Block ist äquivalent zum Block \textbf{rechts}, wobei der \texttt{finally}-Block automatisch vom Compiler generiert wird und um einiges komplexer ist. \textbf{Wichtig} dabei ist, dass in der Klasse \texttt{Scanner} das Interface \texttt{AutoCloseable} implementiert ist, damit dort die \texttt{close()}-Funktion sicher existiert. Mit \texttt{;}-getrennt können mehrere Variabeln definiert werden.
+		\end{minipage}
+		\hspace*{0.5cm}
+		\begin{minipage}[t]{8.3cm}
+			\lstinputlisting{code/Exception_finallyAuto2.java}
+		\end{minipage}
