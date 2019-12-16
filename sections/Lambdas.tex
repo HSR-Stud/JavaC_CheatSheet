@@ -1,0 +1,36 @@
+\section*{Lambdas}
+	\subsection*{Höherwertige Funktionen}
+		\begin{itemize}[noitemsep]
+			\item Funktionen, welche wiederum Funktionen als Parameter erwarten oder zurückgeben
+			\item Funktionen werden wie Werte behandelt. (Referenz auf Funktion)
+			\item Parametertyp ist ein Interface mit \textbf{genau einer} abstrakten Methode (\textbf{functional Interface})
+			\item übergebene Methode muss \textbf{typ-kompatibel} mit der Methode im Interface sein, sprich gleiche Signatur und Rückgabetyp
+		\end{itemize}
+	
+	\subsection*{Methodenreferenz}
+		\begin{minipage}{6.3cm}
+			\begin{itemize}[noitemsep]
+				\item Referenz auf eine Methode (noch kein Aufruf!)
+				\item Methode wird wie ein Objekt behandelt
+				\item Methodenreferenzen haben keinen eigenen Typ (nicht wie in \texttt{C++})
+			\end{itemize}
+		\end{minipage}
+		\hspace*{0.5cm}
+		\begin{minipage}{12cm}
+			\lstinputlisting{code/Lambdas_FunctionRef.java}
+		\end{minipage}
+		Syntax einiger nützlichen Methodenreferenzen:
+		\lstinputlisting{code/Lambdas_FunctionRefCalls.java}
+	\subsection*{Lambdas}
+		Ein Lambda ist eine Referenz auf eine \textbf{anonyme} Methode. Der Syntax sieht wie folgt aus:
+		\lstinputlisting{code/Lambdas_Syntax.java}
+		Beispiel:
+		\lstinputlisting{code/Lambdas_Syntax2.java}
+		Dabei sind die geschweiften Klammern im Body optional, werden nur bei einem syntaktischer Ausdruck (Expression) gebraucht.
+		\lstinputlisting{code/Lambdas_Syntax3.java}
+		Bei nur einem Übergabeparameter sind sogar die runden Klammern überflüssig.
+		\lstinputlisting{code/Lambdas_Syntax4.java}
+		letzterer Ausdruck ist Analog zu \texttt{\textbf{this::isAdult}} mit:
+		\lstinputlisting{code/Lambdas_Syntax4_analog.java}
+		Lambdas sind auch ohne Parameterliste möglich, was dann wie folgt aussieht:
+		\lstinputlisting{code/Lambdas_Syntax5.java}
