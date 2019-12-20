@@ -34,16 +34,18 @@
 	\begin{minipage}[t]{8.3cm}
 		\subsection*{Unendliche Quellen}
 		\lstinputlisting{code/StreamAPI_sources2.java}
-		Dies funktioniert, weil ein Element im Strom erst bereitgestellt wird, wenn der Nachfolger es wirklich anfordert. Als zweites Element kann zum beispiel \texttt{.limit(1000)} folgen.
+		Dies funktioniert, weil ein Element im Strom erst bereitgestellt wird, wenn der Nachfolger es wirklich anfordert. Als zweites Element kann zum Beispiel \texttt{.limit(1000)} folgen.
 	\end{minipage}
 	\subsection*{Rückumwandlungen}
-	\begin{minipage}[t]{8.9cm}
-		\lstinputlisting{code/StreamAPI_toArray.java}
-	\end{minipage}
-	\hspace*{0.5cm}
-	\begin{minipage}[t]{8.9cm}
-		\lstinputlisting{code/StreamAPI_toCollection.java}
-	\end{minipage}
+		\begin{minipage}[t]{8.9cm}
+			\lstinputlisting{code/StreamAPI_toArray.java}
+		\end{minipage}
+		\hspace*{0.5cm}
+		\begin{minipage}[t]{8.9cm}
+			\lstinputlisting{code/StreamAPI_toCollection.java}
+		\end{minipage}
+	\subsection*{Übersicht Collectors}
+		\lstinputlisting{code/StreamAPI_Collectors.java}
 	\subsection*{Gruppierungen}
 	\lstinputlisting{code/StreamAPI_grouping.java}
 	\lstinputlisting{code/StreamAPI_grouping2.java}	
