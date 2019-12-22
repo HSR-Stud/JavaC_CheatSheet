@@ -9,6 +9,7 @@ public class Vehicle{
 public class Car extends Vehicle{
 	private boolean[] isDoorOpen;
 	
+	@Override
 	public Car(int speed, int nofDoors){
 		super(speed);	// expliziter Aufruf
 		isDoorOpen = new boolean[nofDoors];
