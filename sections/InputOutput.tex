@@ -2,9 +2,23 @@
 	\subsection*{Byte-Streams}
 		\lstinputlisting{code/InputOutput_in.java}
 		\lstinputlisting{code/InputOutput_out.java}
-		\todo{InputStream / System.in und OutputStream / System.out ??????}
+		\begin{minipage}[t]{10cm}
+			\subsubsection*{Besondere Stream-Methoden}
+			\lstinputlisting{code/InputOutput_Inputread.java}
+			\lstinputlisting{code/InputOutput_Outputwrite.java}
+		\end{minipage}
+		\hspace*{0.5cm}
+		\begin{minipage}[t]{8.3cm}
+			\subsubsection*{Standard Input/Output}	
+			\begin{itemize}[noitemsep]
+				\item \texttt{System.in} $\rightarrow$ \texttt{System.in}
+				\item \texttt{System.out \& System.err} $\rightarrow$ \texttt{PrintStream}
+				\item \texttt{PrintsStream} ist Subklasse von \texttt{OutputStream}
+			\end{itemize}	
+		\end{minipage}
 	
 	\subsection*{Character-Streams}
 		\lstinputlisting{code/InputOutput_reader.java}
 		\lstinputlisting{code/InputOutput_writer.java}
-	
+		\subsubsection*{Einfachster Text-Datei Zugriff}
+		\lstinputlisting{code/InputOutput_EasyAccess.java}

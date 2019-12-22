@@ -1,1 +1,1 @@
-() -> // Beispielcode!?
+() -> System.out.println("Do nothing!");

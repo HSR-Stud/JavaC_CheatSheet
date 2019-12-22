@@ -3,5 +3,6 @@ public <E> Stack<E> multiPush(E value, int times){
 	for(int i = 0; i < times; i++){
 		result.push(value);
 	}
+	
 	return result;
 }

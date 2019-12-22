@@ -1,22 +1,19 @@
+\newpage
 \section*{Generics}
-	Generics sind zu vergleichen mit Templates in \texttt{C++}. In Java könnte es auch gelöst werden, indem ein Element mit dem Typ \texttt{Object} entgegen genommen wird, dann ist aber ein Type-Cast notwendig wenn das Objekt, ohne Typinformationsverluste, wieder zurückgenommen werden will.
-	\subsection*{Generische Klasse}
-		\begin{minipage}[t]{8.5cm}
-			\begin{itemize}[noitemsep]
-				\item \textbf{Typ-Parameter:} Platzhalter für unbekannten Typ
-				\item \textbf{Bei Einsatz:} Typ-Argument muss angegeben werden
-			\end{itemize}
-		\end{minipage}
-		\hspace*{0.25cm}
-		\begin{minipage}[t]{4.2cm}
-			\textbf{Klasse mit Typ-Parameter}	
-			\lstinputlisting{code/Generics_definition.java}
-		\end{minipage}
-		\hspace*{0.25cm}
-		\begin{minipage}[t]{5.3cm}
-			\textbf{Einsatz mit Typ-Argument}
-			\lstinputlisting{code/Generics_usage.java}
-		\end{minipage}
+	\vspace{-0.7cm}
+	Generics sind zu vergleichen mit Templates in \texttt{C++}. In Java könnte es auch gelöst werden, indem ein Element mit dem Typ \texttt{Object} entgegen genommen wird, dann ist aber ein Type-Cast notwendig wenn das Objekt, ohne Typinformationsverluste, wieder zurückgenommen werden will.\\
+	\begin{minipage}[t]{9cm}
+		\subsection*{Generische Klasse}
+		$<$Typ-Parameter$>$: Platzhalter für unbekannten Typ	
+		\lstinputlisting{code/Generics_definition.java}
+	\end{minipage}
+	\hspace*{0.5cm}
+	\begin{minipage}[t]{9.3cm}
+		\subsection*{Einsatz mit Typ-Argument}
+		$<$Typ-Argument$>$: muss angegeben werden
+		\lstinputlisting{code/Generics_usage.java}
+	\end{minipage}
+	
 	\begin{minipage}[t]{7cm}
 		\subsection*{Generische Interfaces}
 		\lstinputlisting{code/Generics_interface.java}
@@ -26,6 +23,7 @@
 		\subsection*{Generische Methoden}
 		\lstinputlisting{code/Generics_methods.java}
 	\end{minipage}
+
 	\begin{minipage}[t]{9cm}
 		\subsection*{Type-Bound}
 		\begin{itemize}[noitemsep]
@@ -40,4 +38,3 @@
 		Generische Methoden ohne Typ-Argument aufrufen $\rightarrow$ wird automatisch von Methodenargument erkannt.
 		\lstinputlisting{code/Generics_TypeInference.java}
 	\end{minipage}
-	

@@ -1,4 +1,4 @@
-class StringClipException extends Exception{
+class StringClipException extends Exception{	// muss von einer Exception erben!!!
 	StringClipException(){}
 	
 	StringClipException(String message){
